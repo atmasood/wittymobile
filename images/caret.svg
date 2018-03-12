@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 20 20" fill="#fff">
+=======
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 20 20">
+>>>>>>> 3eeef3ab843d4ff42d8d5ddca8b5ee63098720b1
                               <path class="cls-1" d="M19.9,5L10,14.9,0.1,5H19.9Z"></path>
                 </svg>
