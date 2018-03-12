@@ -42,7 +42,39 @@ margin-bottom: 20px;
     float: right !important;
     box-shadow: none !important;
     margin: 10px 0px;
+    margin-bottom: 0px;
     text-transform: none;
+    height:24px !important;
+
+}
+
+.dropDown_anchor{
+    color:#000 !important;
+    border-bottom:solid 1px #ccc;
+}
+
+
+.custom_dropDown{
+    top:41px !important;
+    left:272px !important;
+    overflow-y: inherit !important;
+    left: -67.8906px !important;
+}
+
+.custom_dropDown::before{
+    content: '';
+    border-bottom: 6px solid #c5c5c5;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    position: absolute;
+    top: -6px;
+    right: 1px;
+
+
+}
+.dropdown_parent{
+      position: absolute;
+    right: 22px;
 }
 
 .tab_col{
@@ -134,7 +166,7 @@ margin-bottom: 20px;
     position: relative;
     border-left: 0;
     display: inline-block;
-    padding: 10px;
+    padding: 5px;
     margin-left: 0;
     font-size: 20px;
     margin-top: 0;
@@ -196,7 +228,7 @@ margin-bottom: 20px;
     position: relative;
     border-left: 0;
     display: inline-block;
-    padding: 10px;
+    padding: 5px;
     margin-left: 0;
     font-size: 20px;
     margin-top: 0;
@@ -241,4 +273,5 @@ margin-bottom: 20px;
 
 .txt_lower{
     text-transform: lowercase !important;
+    padding:0px !important;
 }
